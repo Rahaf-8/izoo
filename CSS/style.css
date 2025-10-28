@@ -4,24 +4,29 @@
   padding: 0;
   overflow: hidden;
 }
-
 img {
   display: block;
 }
 body {
-  margin: 0;
-  background: linear-gradient(to right, #000 0 20px, transparent 20px) #fff;
+  background: linear-gradient(to right, #000 0 25px, transparent 25px) #fff;
+  /* overflow: hidden; */
+  height: 100vh;
 }
 .container {
   
 }
 /* logo */
 .logo-img {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  margin-top: 30px;
+  margin: 0 auto;
+  width: 45%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 .logo-img img {
   width: 50%;
@@ -31,25 +36,20 @@ body {
 .tree-container {
   width: 92%;
   position: absolute;
-  margin: 0;
-  padding: 0;
-  left: 20px;
-  margin-top: 15px;
-
-  margin-right: 70px;
+  left:25px;
+  top: 15%;
 }
 .tree-img {
   width: 370px;
 }
 /* cat */
 .cat-container {
-  width: 36%;
+  width: 35%;
   position: absolute;
   left: 0;
-  top: 350px;
-  z-index: 10;
-  margin: 0;
-  padding: 0;
+  top: 55%;
+  margin-top: 290px;
+  position: relative;
 }
 .cat-img {
   width: 100%;
@@ -59,9 +59,9 @@ body {
   position: absolute;
   margin: 0;
   padding: 0;
-  left: 20px;
+  left: 1.6rem;
   bottom: 0;
-  width: calc(100% - 21px);
+  width: calc(100% - 1.6rem);
 }
 .footer-container img {
   width: 100%;
@@ -78,7 +78,7 @@ body {
 .pill {
   display: block;
   width: 13rem;
-  height: 30px;
+  height: 2rem;
   border: 2px solid #000;
   border-radius: 6px;
   background: transparent;

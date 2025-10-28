@@ -13,7 +13,7 @@ img {
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #000 0 20px, transparent 20px) #fff;
+  background: linear-gradient(to right, #000 0 19px, transparent 19px) #fff;
 }
 
 .container {
@@ -25,10 +25,10 @@ body {
   padding: 0;
   text-align: center;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 65px;
 }
 .logo-img img {
-  width: 50%;
+  width: 45%;
   margin: 30px auto 0;
 }
 
@@ -36,19 +36,18 @@ body {
   position: absolute;
   margin: 0;
   padding: 0;
-  left: 20px;
-  margin-top: 15px;
-
+  left: 19px;
+  margin-top: 25px;
   margin-right: 70px;
 }
 .tree-img {
-  width: 370px;
+  width: 340px;
 }
 
 .cat-container {
   position: absolute;
   left: 0;
-  top: 350px;
+  top: 330px;
   z-index: 10;
   margin: 0;
   padding: 0;
@@ -75,6 +74,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  z-index: 8888;
 }
 .pill {
   display: block;
@@ -88,6 +88,7 @@ body {
   justify-content: center;
   text-decoration: none;
   color: #000;
+  cursor:pointer;  
  
 }
 

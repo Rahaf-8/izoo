@@ -4,22 +4,24 @@
   padding: 0;
   overflow: hidden;
 }
-
 img {
   display: block;
 }
-body {
-  background: linear-gradient(to right, #000 0 25px, transparent 25px) #fff;
-  /* overflow: hidden; */
-  height: 100vh;
-}
-.container {
-  
+body::after{
+  content: "";
+  position: absolute;
+  width: 1.6rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  z-index: -1;
 }
 /* logo */
 .logo-img {
   margin: 0 auto;
-  width: 45%;
+  width: 47%;
   position: absolute;
   top: 5%;
   left: 50%;
@@ -36,7 +38,7 @@ body {
 .tree-container {
   width: 92%;
   position: absolute;
-  left:25px;
+  left: 1.6rem;
   top: 15%;
 }
 .tree-img {
@@ -44,12 +46,10 @@ body {
 }
 /* cat */
 .cat-container {
-  width: 36%;
+  width: 35%;
   position: absolute;
   left: 0;
-  top: 55%;
-  margin-top: 290px;
-  position: relative;
+  top: 43%;
 }
 .cat-img {
   width: 100%;
@@ -59,9 +59,9 @@ body {
   position: absolute;
   margin: 0;
   padding: 0;
-  left: 20px;
+  left: 1.6rem;
   bottom: 0;
-  width: calc(100% - 21px);
+  width: calc(100% - 1.6rem);
 }
 .footer-container img {
   width: 100%;
@@ -78,7 +78,7 @@ body {
 .pill {
   display: block;
   width: 13rem;
-  height: 30px;
+  height: 2rem;
   border: 2px solid #000;
   border-radius: 6px;
   background: transparent;

@@ -1,37 +1,120 @@
-body{
-    margin: 0;
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+img {
+  display: block;
 }
 
-.container .left-bar{
-    position: absolute;
-    top: o;
-    bottom: 0;
-    left: 0;
-    width: 3%;
-    height: 700vh;
-    background-color: black;
-    z-index: 10;
+body {
+  margin: 0;
+  background: linear-gradient(to right, #000 0 20px, transparent 20px) #fff;
 }
 
-.logo-sec{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-}
-.logo-sec .logo-img{
-    width:20%;
-    margin-top:30px;
-}
-.logo-sec .logo-img img{
-    width:100%
+.container {
+  margin: 0;
 }
 
-.tree-sec{
-    width: 50%;
-    margin-left: 45px;
+.logo-img {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
 }
-.tree-sec img{
-    width:100%
+.logo-img img {
+  width: 60%;
+  margin: 30px auto 0;
 }
+
+.tree-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 20px;
+  margin-top: 10px;
+
+  margin-right: 70px;
+}
+.tree-img {
+  width: 390px;
+}
+
+.cat-container {
+  position: absolute;
+  left: 0;
+  top: 350px;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+}
+.cat-img {
+  width: 115px;
+}
+
+.footer-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 20px;
+  bottom: 0;
+}
+.footer-container img {
+  width: 390px;
+}
+
+/* @media (max-width: 768px) {
+    body {
+  background: linear-gradient(to right, #000 0 42px, transparent 42px) #fff;
+  
+}
+  .logo-img img {
+    width: 70%;
+  }
+  .tree-container {
+    left: 16px;
+    top: 110px;
+    margin-right: 80px;
+  }
+  .tree-img {
+    width: 700px;
+    margin-top: 110px;
+  }
+  .cat-img {
+    width: 190px;
+  }
+  .cat-container {
+  position: absolute; 
+  left: 0; 
+  top: 500px; 
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+ 
+}
+}
+
+@media (max-width: 480px) {
+    .logo-img img {
+    width: 60%;
+  }
+  .tree-img {
+    width: 400px;
+  }
+  .cat-img {
+    width: 115px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tree-img {
+    width: 450px;
+  }
+  .cat-img {
+    width: 180px;
+  }
+} */

@@ -4,40 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css"
-        integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/solid.min.css"
-        integrity="sha512-EHa6vH03/Ty92WahM0/tet1Qicl76zihDCkBnFhN3kFGQkC+mc86d7V+6y2ypiLbk3h0beZAGdUpzfMcb06cMg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css"
-        integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>IZOO</title>
 </head>
 
 <body>
-
     <div class="container">
-        <div class="left-bar"></div>
-       <div class="content">
-         <div class="logo-sec">
+        <div class="second-sec">
             <div class="logo-img">
-                <img src="./Images/ZOO LOGO red 3.png" alt="izoo logo">
+                <img src="./Images/ZOO LOGO red 3.png" alt="I'ZOO Logo">
+            </div>
+
+            <div class="tree-container">
+                <img src="./Images/freepik_br_c2acc06c-1f6d-4e2c-a091-075fbe381826.png" alt="Tree with birds"
+                    class="tree-img">
             </div>
         </div>
 
-        <div class="tree-sec">
-            <img src="./Images/Img-Tree.png" alt="">
+        <div class="third-sec">
+            <div class="cat-container">
+                <img src="./Images/Cat-img.png" alt="Cat" class="cat-img">
+            </div>
+            <div class="buttons-container">
+                <button class="button" onclick="handleButtonClick(1)"></button>
+                <button class="button" onclick="handleButtonClick(2)"></button>
+                <button class="button" onclick="handleButtonClick(3)"></button>
+                <button class="button" onclick="handleButtonClick(4)"></button>
+                <button class="button" onclick="handleButtonClick(5)"></button>
+            </div>
+            <div class="footer-container">
+                <img src="./Images/Footer-image.png" alt="">
+            </div>
         </div>
-       </div>
-       <img src="./Images/Footer-image.png" alt="">
-       <img src="./Images/Cat-img.png" alt="">
+
+
+
+
     </div>
+
+
+    <script>
+        function handleButtonClick(buttonNumber) {
+            console.log(`Button ${buttonNumber} clicked`);
+            // Add your button functionality here
+            alert(`Button ${buttonNumber} clicked!`);
+        }
+    </script>
 </body>
 
 </html>

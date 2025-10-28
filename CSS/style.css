@@ -1,84 +1,83 @@
 * {
   box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
   margin: 0;
+  padding: 0;
   overflow: hidden;
 }
+
 img {
   display: block;
 }
-
 body {
   margin: 0;
-  background: linear-gradient(to right, #000 0 19px, transparent 19px) #fff;
+  background: linear-gradient(to right, #000 0 20px, transparent 20px) #fff;
 }
-
 .container {
-  margin: 0;
+  
 }
-
+/* logo */
 .logo-img {
   margin: 0;
   padding: 0;
   text-align: center;
   width: 100%;
-  margin-top: 65px;
+  margin-top: 30px;
 }
 .logo-img img {
-  width: 45%;
+  width: 50%;
   margin: 30px auto 0;
 }
-
+/* tree */
 .tree-container {
+  width: 92%;
   position: absolute;
   margin: 0;
   padding: 0;
-  left: 19px;
-  margin-top: 25px;
+  left: 20px;
+  margin-top: 15px;
+
   margin-right: 70px;
 }
 .tree-img {
-  width: 340px;
+  width: 370px;
 }
-
+/* cat */
 .cat-container {
+  width: 36%;
   position: absolute;
   left: 0;
-  top: 330px;
+  top: 350px;
   z-index: 10;
   margin: 0;
   padding: 0;
 }
 .cat-img {
-  width: 115px;
+  width: 100%;
 }
-
+/* footer */
 .footer-container {
   position: absolute;
   margin: 0;
   padding: 0;
   left: 20px;
   bottom: 0;
+  width: calc(100% - 21px);
 }
 .footer-container img {
-  width: 390px;
+  width: 100%;
 }
-
+/* links */
 .buttons-container {
   position: absolute;
-  left: 190px;
-  top: 370px;
+  left: 40%;
+  top: 50%;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  z-index: 8888;
 }
 .pill {
   display: block;
-  width: 185px;
+  width: 13rem;
   height: 30px;
   border: 2px solid #000;
   border-radius: 6px;
@@ -91,8 +90,6 @@ body {
   cursor:pointer;  
  
 }
-
-
 .pill:hover {
 background: #AE2B39;
 color: #fff;

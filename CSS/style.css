@@ -25,10 +25,10 @@ body {
   padding: 0;
   text-align: center;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .logo-img img {
-  width: 60%;
+  width: 50%;
   margin: 30px auto 0;
 }
 
@@ -37,12 +37,12 @@ body {
   margin: 0;
   padding: 0;
   left: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
 
   margin-right: 70px;
 }
 .tree-img {
-  width: 390px;
+  width: 370px;
 }
 
 .cat-container {
@@ -66,6 +66,41 @@ body {
 }
 .footer-container img {
   width: 390px;
+}
+
+.buttons-container {
+  position: absolute;
+  left: 190px;
+  top: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pill {
+  display: block;
+  width: 185px;
+  height: 30px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+ 
+}
+
+
+.pill:hover {
+background: #AE2B39;
+color: #fff;
+border-color:#AE2B39;
+transform: scale(1.03);
+
+}
+.pill:active {
+  transform: translateY(1px);
 }
 
 /* @media (max-width: 768px) {

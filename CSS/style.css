@@ -10,7 +10,7 @@ img {
 body::after{
   content: "";
   position: absolute;
-  width: 1.6rem;
+  width: 6%;
   top: 0;
   right: 0;
   left: 0;
@@ -38,7 +38,7 @@ body::after{
 .tree-container {
   width: 92%;
   position: absolute;
-  left: 1.6rem;
+  left: 1.4rem;
   top: 15%;
 }
 .tree-img {
@@ -73,7 +73,7 @@ body::after{
   top: 50%;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 0.5rem;
 }
 .pill {
   display: block;

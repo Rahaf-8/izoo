@@ -3,11 +3,13 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+   font-family: "Exo", sans-serif;
+   /* font-size: 12px; */
 }
 img {
   display: block;
 }
-body::after{
+body::after {
   content: "";
   position: absolute;
   width: 6%;
@@ -69,11 +71,11 @@ body::after{
 /* links */
 .buttons-container {
   position: absolute;
-  left: 40%;
+  left: 37%;
   top: 50%;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.8rem;
 }
 .pill {
   display: block;
@@ -87,67 +89,63 @@ body::after{
   justify-content: center;
   text-decoration: none;
   color: #000;
- 
+  font-size: 15px;
 }
 .pill:hover {
-background: #AE2B39;
-color: #fff;
-border-color:#AE2B39;
-transform: scale(1.03);
-
+  background: #ae2b39;
+  color: #fff;
+  border-color: #ae2b39;
+  transform: scale(1.03);
+  border-radius: 6px;
 }
 .pill:active {
   transform: translateY(1px);
 }
 
-/* @media (max-width: 768px) {
-    body {
-  background: linear-gradient(to right, #000 0 42px, transparent 42px) #fff;
-  
-}
-  .logo-img img {
-    width: 70%;
+@media (max-width: 350px) {
+  body::after {
+    width: 7%;
   }
+
   .tree-container {
-    left: 16px;
-    top: 110px;
-    margin-right: 80px;
+    width: 75%;
+    top: 14%;
   }
-  .tree-img {
-    width: 700px;
-    margin-top: 110px;
-  }
-  .cat-img {
-    width: 190px;
+  .logo-img {
+    width: 40%;
+    top: 4%;
   }
   .cat-container {
-  position: absolute; 
-  left: 0; 
-  top: 500px; 
-  z-index: 10;
-  margin: 0;
-  padding: 0;
- 
-}
-}
+    width: 34%;
+    top: 39%;
+  }
+  .buttons-container {
+    left: 43%;
+    top: 48%;
 
-@media (max-width: 480px) {
-    .logo-img img {
-    width: 60%;
+    gap: 0.3rem;
   }
-  .tree-img {
-    width: 400px;
+  .pill {
+    width: 9rem;
+    height: 1.3rem;
+    font-size: 12px;
   }
-  .cat-img {
-    width: 115px;
+  .footer-container {
+    left: 1.3rem;
+    width: calc(100% - 1.3rem);
   }
 }
+@media (min-width: 550px){
 
-@media (min-width: 1024px) {
-  .tree-img {
-    width: 450px;
+.buttons-container {
+    left: 45%;
+    top: 55%;
+
+    gap: 0.8rem;
   }
-  .cat-img {
-    width: 180px;
+.pill {
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 14px;
   }
-} */
+}

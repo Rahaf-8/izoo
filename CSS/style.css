@@ -9,7 +9,7 @@ img {
   display: block;
 }
 body{
-  background: linear-gradient(100deg , gray , white);
+  background: white;
 }
 .container::after {
   content: "";

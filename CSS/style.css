@@ -42,7 +42,7 @@ body{
 .tree-container {
   width: 92%;
   position: absolute;
-  left: 1.4rem;
+  left: 1.3rem;
   top: 15%;
 }
 .tree-img {
@@ -116,6 +116,7 @@ body{
   .tree-container {
     width: 74%;
     top: 12%;
+    left: 6%;
   }
   .logo-img {
     width: 35%;
@@ -148,7 +149,7 @@ body{
   .tree-container {
     width: 79%;
     top: 14%;
-    left: 7%;
+    left: 6%;
   }
   .logo-img {
     width: 40%;
@@ -222,7 +223,7 @@ body::after {
   .tree-container {
     width: 79%;
     top: 14%;
-    left: 7%;
+    left: 6%;
   }
 
   .logo-img {

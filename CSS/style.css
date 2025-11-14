@@ -142,7 +142,7 @@ body {
   }
 }
 
-/* الشاشات الصغيرة - من 350px إلى 407px */
+
 @media (min-width: 350px) and (max-width: 407px) {
    .cat-container {
     width: 30%;
@@ -163,21 +163,7 @@ body {
 
 
 @media (min-width: 408px) and (max-width: 560px) {
-  .section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .container {
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
-    position: relative;
-    z-index: 50;
-  }
+ 
 
   body::after {
     width: 7%;

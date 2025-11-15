@@ -85,8 +85,8 @@ body{
 }
 .pill {
   display: block;
-  width: 100%;
-  height: 1.6rem;
+  width: 12rem;
+  height: 1.3rem;
   border: 1px solid #000;
   border-radius: 6px;
   background: transparent;
@@ -96,6 +96,7 @@ body{
   text-decoration: none;
   color: #000;
   font-size: 13px;
+  font-weight: 400;
 
 }
 .pill:hover {
@@ -136,6 +137,7 @@ body{
     width: 9rem;
     height: 1.3rem;
     font-size: 10px;
+ 
   }
   .footer-container {
     left: 1.3rem;
@@ -241,7 +243,7 @@ body::after {
     top: 43%;
     min-width: 80%;
     gap: 0.8rem;
-    /* background-color: #ae2b39; */
+   
   }
 
   .pill {
@@ -262,7 +264,7 @@ body::after {
     top: 43%;
     min-width: 80%;
     gap: 0.8rem;
-    /* background-color: #ae2b39; */
+   
   }
 }
 @media (min-width: 680px){
@@ -278,7 +280,7 @@ body::after {
   }
  .cat-container {
     width: 20%;
-    top: 42%;
+    top: 44%;
   }
    .footer-container {
     left: 3rem;
@@ -289,7 +291,7 @@ body::after {
     top: 44%;
     min-width: 80%;
     gap: 0.7rem;
-    /* background-color: #ae2b39; */
+    
   }
 
   .pill {

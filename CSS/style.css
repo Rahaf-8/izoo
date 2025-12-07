@@ -78,7 +78,7 @@ body{
 .buttons-container {
   position: absolute;
   left: 30%;
-  top: 47%;
+  top: 46%;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
@@ -133,7 +133,7 @@ body{
   }
   .buttons-container {
     left: 29%;
-    top: 44%;
+    top: 41%;
     width:50;
     gap: 0.4rem;
   }
@@ -167,7 +167,7 @@ body{
   }
   .buttons-container {
     left: 29%;
-    top: 44%;
+    top: 42%;
     width:60%;
     gap: 0.7rem;
   }
@@ -564,15 +564,17 @@ body::after {
 
   .buttons-container {
     left: 30%;
-    top: 45%;
+    top: 41%;
     width: 80%;
-    gap: 0.5rem;
+    gap: 0.7rem;
   }
 
   .pill {
     width: 15rem;
     height: 1.4rem;
     font-size: 18px;
+    padding: 0.7rem 0;
+    font-size: 0.9rem;
    
   }
 

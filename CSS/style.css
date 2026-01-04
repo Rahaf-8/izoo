@@ -54,10 +54,10 @@ body{
 }
 /* cat */
 .cat-container {
-  width: 35%;
+  width: 32%;
   position: absolute;
   left: 0;
-  top: 43%;
+  top: 45%;
 }
 .cat-img {
   width: 100%;
@@ -75,44 +75,37 @@ body{
   width: 100%;
 }
 /* links */
+
 .buttons-container {
   position: absolute;
-  left: 30%;
-  top: 44%;
+  right: 14%;                 
+  top: 62%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-  width:70%;
-  padding: 10%;
- 
-
+  gap: 12px;
 }
-.pill {
-  display: block;
-  width: 12rem;
-  height: 1.6rem;
-  border: 1px solid #000;
-  border-radius: 6px;
-  background: transparent;
-  display: flex;
+
+span{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.icon-row {
+  display: inline-flex;      
+  flex-direction: row-reverse; 
   align-items: center;
-  justify-content: center;
+  gap: 1rem;
   text-decoration: none;
   color: #000;
-  font-size: .8125rem;
-  font-weight: 400;
 
 }
-.pill:hover {
-  background: #ae2b39;
-  color: #fff;
-  border-color: #ae2b39;
-  transform: scale(1.03);
-  border-radius: 6px;
+
+
+.icon-row img {
+  width: 3rem;
+  height: 3rem;
 }
-.pill:active {
-  transform: translateY(1px);
-}
+
 
 @media (max-width: 350px) {
   body::after {
@@ -132,17 +125,19 @@ body{
     top: 39%;
   }
   .buttons-container {
-    left: 29%;
-    top: 39%;
-    width:50;
-    gap: 0.4rem;
+    right: 20%;
+    top: 60%;
+  
   }
-  .pill {
-    width: 9rem;
-    height: 1.2rem;
-    font-size: 10px;
- 
-  }
+  .icon-row img {
+  width: 2rem;
+  height: 2rem;
+}
+span{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
   .footer-container {
     left: 1.3rem;
     width: calc(100% - 1.3rem);
@@ -163,20 +158,14 @@ body{
   }
   .cat-container {
     width: 32%;
-    top: 40%;
+    top: 43%;
   }
   .buttons-container {
-    left: 29%;
-    top: 42%;
-    width:60%;
-    gap: 0.7rem;
+    right: 20%;
+    top: 60%;
+    gap: 0.9rem;
   }
-  .pill {
-    width: 12rem;
-    height: 1.6rem;
-    font-size: 12px;
-  
-  }
+
   .footer-container {
     left: 1.3rem;
     width: calc(100% - 1.3rem);
@@ -239,23 +228,24 @@ body::after {
 
   .cat-container {
     width: 28%;
-    top: 42%;
+    top: 45%;
+   
   }
 
   .buttons-container {
-    left: 25%;
-    top: 43%;
-    min-width: 80%;
-    gap: 0.8rem;
+   right: 20%;
+    top: 62%;
+     gap: 2rem;
    
   }
-
-  .pill {
-    width: 17rem;
-    height: 1.5rem;
-    font-size: 12px;
-   
-  }
+ .icon-row img {
+  width: 3rem;
+  height: 3rem;
+}
+span{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
 
   .footer-container {
     left: 1.3rem;
@@ -263,13 +253,25 @@ body::after {
   }
 }
 @media (min-width: 580px){
-.buttons-container {
-    left: 25%;
-    top: 43%;
-    min-width: 80%;
-    gap: 0.8rem;
+ .cat-container {
+
+    top: 42%;
    
   }
+  .buttons-container {
+   right: 22%;
+    top: 62%;
+  gap: 2rem;
+   
+  }
+ .icon-row img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+span{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 }
 @media (min-width: 680px){
   .tree-container {
@@ -283,27 +285,27 @@ body::after {
     top: 3%;
   }
  .cat-container {
-    width: 20%;
-    top: 44%;
+    width: 25%;
+    top: 42%;
   }
    .footer-container {
     left: 3rem;
     width: calc(100% - 5rem);
   }
-   .buttons-container {
-    left: 30%;
-    top: 40%;
-    min-width: 80%;
-    gap: 0.7rem;
-    
-  }
-
-  .pill {
-    width: 20rem;
-    height: 1.6rem;
-    font-size: 12px;
+ .buttons-container {
+   right: 27%;
+    top: 62%;
+  gap: 2rem;
    
   }
+ .icon-row img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+span{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 }
 
 @media (min-width: 845px) {
@@ -345,24 +347,24 @@ body::after {
   }
 
   .cat-container {
-    width: 28%;
-    top: 39%;
+    width: 25%;
+    top: 45%;
   }
 
-  .buttons-container {
-    left: 30%;
-    top: 42%;
-    width: 100%;
-    gap: 0.8rem;
+.buttons-container {
+   right: 25%;
+    top: 62%;
+  gap: 1.5rem;
    
   }
-
-  .pill {
-    width: 19rem;
-    height: 1.5rem;
-    font-size: 1rem;
-   
-  }
+ .icon-row img {
+  width: 3rem;
+  height: 3rem;
+}
+span{
+  font-size: 1.30rem;
+  font-weight: 500;
+}
 
   .footer-container {
     left: 1.3rem;
@@ -402,20 +404,7 @@ body::after {
     top: 42%;
   }
 
-  .buttons-container {
-    left: 25%;
-    top: 43%;
-    width: 80%;
-    gap: 0.9rem;
-    /* background-color: #ae2b39; */
-  }
 
-  .pill {
-    width: 19rem;
-    height: 1.6rem;
-    font-size: 1rem;
-   
-  }
 
   .footer-container {
     left: 2.2rem;
@@ -452,23 +441,9 @@ body::after {
 
   .cat-container {
     width: 26%;
-    top: 42%;
+    top: 45%;
   }
 
-  .buttons-container {
-    left: 25%;
-    top: 43%;
-    width: 80%;
-    gap: 0.9rem;
-    /* background-color: #ae2b39; */
-  }
-
-  .pill {
-    width: 19rem;
-    height: 1.6rem;
-    font-size: 1rem;
-   
-  }
 
   .footer-container {
     left: 2.2rem;
@@ -493,7 +468,7 @@ body::after {
   }
 
   .tree-container {
-    width: 73%;
+    width: 65%;
     top: 14%;
     left: 6%;
   }
@@ -504,24 +479,23 @@ body::after {
   }
 
   .cat-container {
-    width: 26%;
+    width: 23%;
     top: 42%;
   }
-
-  .buttons-container {
-    left: 25%;
-    top: 43%;
-    width: 80%;
-    gap: 0.9rem;
+.buttons-container {
+   right: 18%;
+    top: 60%;
+  gap: 1rem;
    
   }
-
-  .pill {
-    width: 19rem;
-    height: 1.6rem;
-    font-size: 1rem;
-   
-  }
+ .icon-row img {
+  width: 2rem;
+  height: 2rem;
+}
+span{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
 
   .footer-container {
     left: 2.2rem;
@@ -558,27 +532,26 @@ body::after {
   }
 
   .cat-container {
-    width: 21%;
-    top: 42%;
+    width: 25%;
+    top: 40%;
   }
 
-  .buttons-container {
-    left: 30%;
-    top: 39%;
-    width: 80%;
-    gap: 0.6rem;
-  }
-
-  .pill {
-    width: 15rem;
-    height: 1.4rem;
-    padding: 0.7rem 0;
-    font-size: 0.9rem;
+.buttons-container {
+   right: 25%;
+    top: 60%;
+  gap: 1.5rem;
    
   }
-
+ .icon-row img {
+  width: 3rem;
+  height: 3rem;
+}
+span{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
   .footer-container {
-    left: 2.3rem;
-    width: calc(100% - 3rem);
+    left: 1.9rem;
+    width: calc(100% - 2rem);
   }
 }

@@ -83,7 +83,7 @@ body{
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 0.5rem;
 }
 
 span{
@@ -127,7 +127,7 @@ span{
   .buttons-container {
     right: 20%;
     top: 60%;
-     gap: 0.5rem;
+     gap: 0.3rem;
 }
   
   .icon-row img {
@@ -164,7 +164,7 @@ span{
   .buttons-container {
     right: 20%;
     top: 62%;
-    gap: 2rem;
+    gap: 0.7rem;
   }
 
   .footer-container {
@@ -217,7 +217,7 @@ body::after {
   }
 
   .tree-container {
-    width: 79%;
+    width: 70%;
     top: 14%;
     left: 6%;
   }
@@ -229,14 +229,14 @@ body::after {
 
   .cat-container {
     width: 28%;
-    top: 45%;
+    top: 40%;
    
   }
 
   .buttons-container {
    right: 20%;
     top: 62%;
-     gap: 2rem;
+    gap: 0.4rem;
    
   }
  .icon-row img {
@@ -262,7 +262,7 @@ span{
   .buttons-container {
    right: 22%;
     top: 62%;
-  gap: 2rem;
+  gap: 0.3rem;
    
   }
  .icon-row img {
@@ -276,7 +276,7 @@ span{
 }
 @media (min-width: 680px){
   .tree-container {
-    width: 65%;
+    width: 60%;
     top: 12%;
     left: 6%;
    
@@ -296,7 +296,7 @@ span{
  .buttons-container {
     right: 27%;
     top: 60%;
-    gap: 2rem;
+    gap: 0.3rem;
    
   }
  .icon-row img {
@@ -355,7 +355,7 @@ span{
 .buttons-container {
    right: 25%;
     top: 62%;
-  gap: 1.5rem;
+  gap: 0.4rem;
    
   }
  .icon-row img {
@@ -486,7 +486,7 @@ span{
 .buttons-container {
    right: 18%;
     top: 60%;
-  gap: 1rem;
+  gap: 0.5rem;
    
   }
  .icon-row img {
@@ -540,7 +540,7 @@ span{
 .buttons-container {
    right: 25%;
     top: 60%;
-  gap: 1.5rem;
+  gap: 0.5rem;
    
   }
  .icon-row img {
